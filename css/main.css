@@ -91,12 +91,89 @@ For banner over lay add this class to your div
   font-weight: 500;
   border: none;
   box-shadow: -1px 3px 5px red;
+  border-radius: 5px;
 }
 
 .container1 {
   background-color: lightgrey;
 }
+.neighbour {
+  text-align: center;
+}
+.neighbour h2 {
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 1px;
+}
+.neighbour p {
+  font-size: 15px;
+  padding: 1px;
+}
 
+.gird{
+  display: grid;
+  width: 95%;
+  margin: 20px auto;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 400px;
+  gap: 20px;
+}
+
+[class^="reco"] {
+background-color: color grey;
+border: 1px color grey solid;
+}
+
+[class^="filtz"] {
+  display: flex;
+  flex-direction: column;
+}
+
+[class^="kilda"] {
+  display: flex;
+  flex-direction: column;
+}
+
+[class^="cbs"] {
+  display: flex;
+  flex-direction: column;
+}
+
+.fitz {
+  background-image: url(../imgs/fitzroy.jpg);
+}
+
+.kilda {
+  background-image: url(../imgs/st-kilda.jpg);
+}
+
+.cbs {
+  background-image: url(../imgs/central-business-district.jpg);
+}
+
+.image{
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  align-self: center;
+  margin: auto;
+  position: relative;
+}
+
+.text > h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.button {
+  color: white;
+}
 
 /* nav a {
   color: black;
@@ -105,3 +182,13 @@ For banner over lay add this class to your div
   letter-spacing: 0.8px;
   font-size: 13px;
 } */
+
+/* color: white;
+  background-color: rgb(230, 47, 23);
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  box-shadow: -1px 3px 5px red; */
